@@ -1,0 +1,67 @@
+.cart-warp{
+    position: relative;
+    width: 1280px;
+    height: 30px;
+    /* background-color: pink; */
+}
+a{
+    text-decoration: none;
+    color: orange;
+}
+    .t-checkbox,
+    .t-goods,
+    .t-price,
+    .t-num,
+    .t-sum,
+    .t-action{
+        position: relative;
+        float: left;
+        padding-right: 150px;
+    }
+img{
+    width: 70px;
+}
+.cart-item-list{
+    position: relative;
+    /* background-color: skyblue; */
+    width: 1280px;
+    height: 700px;
+}
+    .cart-item{
+        position: relative;
+        /* float: left; */
+        width: 1280px;
+        height: 100px;
+        /* padding-top: 30px; */
+        /* background-color: slateblue; */
+    }
+    .j-checkbox{
+        position: relative;
+        float: left;
+    }
+        .p-goods,
+        .p-price,
+        .p-num,
+        .p-sum,
+        .p-action{
+            position: relative;
+            float: left;
+            width: 150px;
+            height: 100%;
+            padding-right: 60px;
+            /* background-color: yellow; */
+            /* margin-right: 20px; */
+        }
+        .p-goods{
+            padding-left: 120px;
+        }
+            .p-img,
+            .p-msg{
+                position: relative;
+                float: left;
+                padding-right: 5px;
+                width: 70px;
+            }
+        .itxt{
+            width: 50px;
+        }

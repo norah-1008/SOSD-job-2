@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="购物车动态功能（作业3）.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/购物车动态功能（作业3）.js"></script>
+</head>
+
+<body>
+    <div class="cart-warp">
+        <div class="t-checkbox">
+            <input type="checkbox" name="" id="" class="checkall">全选
+        </div>
+        <div class="t-goods">商品名称</div>
+        <div class="t-price">单价</div>
+        <div class="t-num">数量</div>
+        <div class="t-sum">小计</div>
+        <div class="t-action">操作</div>
+    </div>
+
+    <!-- 商品详情 -->
+    <div class="cart-item-list">
+        <div class="cart-item check-cart-item">
+            <div class="p-checkbox">
+                <input type="checkbox" name="" id="" checked class="j-checkbox">
+            </div>
+            <div class="p-goods">
+                <div class="p-img">
+                    <img src="upload/p1.jpg" alt="">
+                </div>
+                <div class="p-msg">黑樱桃乳酪咖啡奶酥软欧面包</div>
+            </div>
+            <div class="p-price">￥13.80</div>
+            <div class="p-num">
+                <div class="quantity-form">
+                    <a href="javascript:;" class="decrement">-</a>
+                    <input type="text" class="itxt" value="1">
+                    <a href="javascript:;" class="increment">+</a>
+                </div>
+            </div>
+            <div class="p-sum">￥13.80</div>
+            <div class="p-action"><a href="javascript:;">删除</a></div>
+        </div>
+        <div class="cart-item">
+            <div class="p-checkbox">
+                <input type="checkbox" name="" id="" class="j-checkbox">
+            </div>
+            <div class="p-goods">
+                <div class="p-img">
+                    <img src="upload/p2.jpg" alt="">
+                </div>
+                <div class="p-msg">早餐米香低糖低油饱腹代餐手作新品</div>
+            </div>
+            <div class="p-price">￥9.80</div>
+            <div class="p-num">
+                <div class="quantity-form">
+                    <a href="javascript:;" class="decrement">-</a>
+                    <input type="text" class="itxt" value="1">
+                    <a href="javascript:;" class="increment">+</a>
+                </div>
+            </div>
+            <div class="p-sum">￥9.80</div>
+            <div class="p-action"><a href="javascript:;">删除</a></div>
+        </div>
+        <div class="cart-item">
+            <div class="p-checkbox">
+                <input type="checkbox" name="" id="" class="j-checkbox">
+            </div>
+            <div class="p-goods">
+                <div class="p-img">
+                    <img src="upload/p3.jpg" alt="">
+                </div>
+                <div class="p-msg">芝士洋芋咸蛋肉松软欧面包</div>
+            </div>
+            <div class="p-price">￥13.80</div>
+            <div class="p-num">
+                <div class="quantity-form">
+                    <a href="javascript:;" class="decrement">-</a>
+                    <input type="text" class="itxt" value="1">
+                    <a href="javascript:;" class="increment">+</a>
+                </div>
+            </div>
+            <div class="p-sum">￥13.80</div>
+            <div class="p-action"><a href="javascript:;">删除</a></div>
+        </div>
+
+        <!-- 结算 -->
+        <div class="cart-floatbar">
+            <!-- <div class="selected-all">
+                <input type="checkbox" name="" id="" class="checkall">全选
+            </div> -->
+            <!-- <div class="operation">
+                <a href="javascript:;" class="remove-batch">删除选中的商品</a>
+                <a href="javascript:;" class="clear-all">清理购物车</a>
+            </div> -->
+            <div class="toolbar-right">
+                <!-- <div class="amount-sum">已经选<em>3</em>件商品</div> -->
+                <div class="price-sum">合计：<em>￥13.80</em></div>
+                <!-- <div class="btn-area">去结算</div> -->
+                <a href="#" class="btn-area">去结算</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
